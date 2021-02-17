@@ -1,0 +1,73 @@
+html {
+  font-size: 100%; color:#2D2D2B;
+  /**so users can adjust text size properly**/
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+body {margin:0; padding:0; width:100%;
+
+font-family: Verdana, Geneva, sans-serif;
+line-height:180%; color:#4d4c4c; font-size:120%;
+margin:0; padding:0;}
+
+/***************************GENERIC*********************/
+.container {width:100%; height:148px; background:#F9EED9;  margin:0; padding:0;}
+.wrap {width:100%;  margin: 0 auto; }
+.box_a, .box_b, .box_c {width:30%; float:left;}
+/********************************************************/
+
+
+
+.container_a {width:100%;  height:148px; 
+background:#F9EED9;  margin:0; padding:0;}
+.wrap_a {width:100%;  margin: 0 auto; }
+
+.box_aa  {width:100%; margin:auto;
+text-align:center;}
+.box_aa img {margin-top:15px;}
+
+
+.clear {clear:both;}/**Float clearing to allow for container**/
+img[src="images/bike_spark_logo2.png"]{height:120px;}
+img[src="images/home_logo.jpg"]{margin-top:18px;}
+img[src="images/facebook.png"]{margin-top:20px;}
+img[src="images/youtube.jpg"]{margin-top:20px; height:25px;}
+
+/********/
+
+.container_b {width:100%;  
+background:#FFFFFF;  margin:0 auto; padding:0; }
+.wrap_b {width:100%;  margin:0 auto;
+font-weight: 400; font-size: 17px; letter-spacing: 1px; font-style: normal; color:#757575;}
+
+.box_ba, .box_bb, .box_bc, .box_bd, .box_be {width:25%; float:left; 
+text-align:center; }
+
+
+.container_c {width:100%; background-image: url("images/main_3.jpg");
+background-repeat :no-repeat; background-size: 100%;
+border-top: 1px solid white; height:200px;}
+.wrap_c {width:100%;  margin:  auto;  }
+.box_ca {width:100%; margin: auto;  border-radius: 5px; padding:0; }
+.box_ca p {padding:5px; text-align:center; color:white; font-weight:bold;}
+
+
+
+
+.container_d {width:100%;  background:#D6C4D6;  
+border:1px solid white;}
+.wrap_d {width:100%; background:#D6C4D6;   }
+.box_da, .box_db, .box_dc {width:100%; text-align:center;
+color:grey; font-weight:bold; padding: 15px 0;}
+
+
+
+
+
+
+
+
+
+
