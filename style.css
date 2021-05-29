@@ -39,14 +39,44 @@ img[src="images/home_logo.jpg"]{margin-top:18px;}
 
 
 /********/
-
 .container_b {width:100%;  height:70px;
-background:#FFFFFF;  margin:0 auto; padding:0; }
+background:#FFFFFF;  margin:0 auto; padding:0;
+}
 .wrap_b {width:70%;  margin:0 auto;
-font-weight: 400; font-size: 17px; letter-spacing: 1px; font-style: normal; color:#757575;}
+font-weight: 400; font-size: 17px; letter-spacing: 1px; font-style: normal; color:#757575;
+}
+
+
+
+
+
+
+/**************MENU*************************/
+a:link {text-decoration:none; color:rgb(60, 64, 77);}/* unvisited link */
+a:visited {color:rgba(60, 64, 77, 0.4);}  /* visited link */
+a:hover {color:rgba(60, 64, 77, 0.4);}  /* mouse over link */
+a:active {color:rgba(60, 64, 77, 0.4);}  /* selected link */
+
+a.hiddin:link {text-decoration:none;color:#333333;}/* unvisited link */
+a.hiddin:visited {color:#333333;}  /* visited link */
+a.hiddin:hover {color:#333333;}  /* mouse over link */
+a.hiddin:active {color:#333333;}  /* selected link */
+
+a.current:link {text-decoration:none; color:rgba(60, 64, 77, 0.4);}
+a.current:visited {text-decoration:none; color:rgba(60, 64, 77, 0.4);}
+a.current:hover {text-decoration:none; color:grey;}
+a.current:active {text-decoration:none; color:grey;}
+
+/********************MAIN********************/
+
+
+
+
 
 .box_ba, .box_bb, .box_bc, .box_bd, .box_be {width:25%; float:left; 
 text-align:center; }
+
+
 
 
 .container_c {width:100%; background-image: url("images/main_3.jpg");
@@ -62,7 +92,7 @@ height:200px;  border-top: 1px solid white;}
 
 
 
-/*************************ABOUT*******************/
+/*************************ABOUT and CONTACT*******************/
 /**h,**/
 .container_h {width:100%;  background:#D6C4D6;  margin:0; padding:0;}
 
@@ -70,18 +100,16 @@ height:200px;  border-top: 1px solid white;}
   align-items:start;}
 
 
-.box_hb {width:770px;
+.box_hb {width:700px;
 color:grey; font-weight:bold;}
-
 /*****************************************************/
 
 
 
 /*******************GALLERY******************/
 
-
-
 /************************************************/
+
 
 
 
